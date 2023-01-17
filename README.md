@@ -3,7 +3,7 @@ Elements are pushed to the caller stack in order. \
 
 # Examples
 
-## **Scenario 1**: \
+## **Scenario 1**: 
 Account calls Contract directly: \
 Len( Caller Stack ) = 2 \
 Caller Stack [0] = account_hash of caller
