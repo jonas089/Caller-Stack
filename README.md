@@ -1,5 +1,5 @@
 # Learn Casper Caller Stack
-Elements are pushed to the caller stack in order. \
+Elements are pushed to the caller stack in order.
 
 # Examples
 
@@ -8,7 +8,7 @@ Account calls Contract directly: \
 Len( Caller Stack ) = 2 \
 Caller Stack [0] = account_hash of caller
 inverse of caller stack [-1] = contract_hash of contract \
-=> if we want to store an element from the caller stack, we will need an enumerator ( Address ) \
+=> if we want to store an element from the caller stack, we will need an enumerator ( Address )
 
 ## **Scenario 2**: 
 Account calls Contract A, Contract A calls Contract B. \
